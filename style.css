@@ -1,0 +1,121 @@
+
+body{
+  font-family: Arial;
+}
+.App {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 10vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .content{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .clear-fix {
+    clear: both;
+    float: left;
+    display: block;
+    position: relative;
+  }
+
+
+  .tile{
+    min-height: 20vh;
+    color: #282c34;
+    background-color: #61dbfb;
+    flex: 1 1 30%;
+    margin:5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.tile-hover{
+    min-height: 20vh;
+    color: #282c34;
+    background-color: #00FF00;
+    flex: 1 1 30%;
+    margin:5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.tile-hover-edit{
+    background-color: yellow;
+}
+
+.tile-hover-delete{
+    background-color: red;
+}
+
+.tile-hover-approve{
+    background-color: #00FF00;
+}
+
+.fas{
+    cursor: pointer;
+}
+
+
+.tile-edit-mode__textarea{
+    background-color: yellow;
+    width: calc(100% - 10px);
+    border: 0px;
+    min-height: calc(20vh - 40px);
+    resize: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.add-new-tile{
+    font-size: 30px;
+    min-height: 20vh;
+    color: #282c34;
+    background-color: white;
+    flex: 1 1 30%;
+    margin:5px;
+}
+
+.days{
+  font-size: 20px;
+  color: silver
+}
+
+.days b{
+  color: white;
+}
